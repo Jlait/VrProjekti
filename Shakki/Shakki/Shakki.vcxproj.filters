@@ -39,6 +39,24 @@
     <ClInclude Include="siirto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sotilas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="torni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ratsu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lahetti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kuningas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daami.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

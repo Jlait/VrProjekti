@@ -1,2 +1,43 @@
-﻿  kayttoliittyma.cpp
-  Shakki.vcxproj -> D:\Opinnot\Pelit Pääaine\Ohjelmistoarkkitehtuurit ja mallit\Shakki\Debug\Shakki.exe
+﻿  nappula.cpp
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\nappula.h(24): error C2061: syntax error: identifier 'Asema'
+  kayttoliittyma.cpp
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\nappula.h(24): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\kuningas.h(18): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\daami.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\torni.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\ratsu.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\lahetti.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\sotilas.h(14): error C2061: syntax error: identifier 'Asema'
+  asema.cpp
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\nappula.h(24): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\kuningas.h(18): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\daami.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\torni.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\ratsu.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\lahetti.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\sotilas.h(14): error C2061: syntax error: identifier 'Asema'
+  Shakki.cpp
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\nappula.h(24): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\kuningas.h(18): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\daami.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\torni.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\ratsu.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\lahetti.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\sotilas.h(14): error C2061: syntax error: identifier 'Asema'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\shakki.cpp(11): error C2259: 'Asema': cannot instantiate abstract class
+  d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\shakki.cpp(11): note: due to following members:
+  d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\shakki.cpp(11): note: 'void Nappula::annaSiirrot(std::list<Siirto,std::allocator<_Ty>> &,Ruutu *)': is abstract
+          with
+          [
+              _Ty=Siirto
+          ]
+  d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\nappula.h(24): note: see declaration of 'Nappula::annaSiirrot'
+d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\shakki.cpp(12): error C2259: 'Kayttoliittyma': cannot instantiate abstract class
+  d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\shakki.cpp(12): note: due to following members:
+  d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\shakki.cpp(12): note: 'void Nappula::annaSiirrot(std::list<Siirto,std::allocator<_Ty>> &,Ruutu *)': is abstract
+          with
+          [
+              _Ty=Siirto
+          ]
+  d:\opinnot\pelit pääaine\ohjelmistoarkkitehtuurit ja mallit\shakki\shakki\nappula.h(24): note: see declaration of 'Nappula::annaSiirrot'
+  Generating Code...

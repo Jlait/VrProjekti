@@ -146,12 +146,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asema.h" />
+    <ClInclude Include="daami.h" />
     <ClInclude Include="kayttoliittyma.h" />
+    <ClInclude Include="kuningas.h" />
+    <ClInclude Include="lahetti.h" />
     <ClInclude Include="nappula.h" />
+    <ClInclude Include="ratsu.h" />
     <ClInclude Include="ruutu.h" />
     <ClInclude Include="siirto.h" />
+    <ClInclude Include="sotilas.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="torni.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="asema.cpp" />

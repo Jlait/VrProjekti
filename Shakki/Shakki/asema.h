@@ -1,6 +1,12 @@
 #pragma once
 #include <iostream>
 #include "nappula.h"
+#include "kuningas.h"
+#include "daami.h"
+#include "torni.h"
+#include "ratsu.h"
+#include "lahetti.h"
+#include "sotilas.h"
 #include "siirto.h"
 #include <string>
 class Asema : public Nappula {
@@ -11,49 +17,49 @@ public:
 	Nappula* lauta[8][8];
 
 	//Valkoinen Kuningas
-	static Nappula* vk1;	
+	static Kuningas* vk1;	
 	//Valkoinen Daami
-	static Nappula* vd1;	
+	static Daami* vd1;	
 	//Valkoiset Tornit
-	static Nappula* vt1;	
-	static Nappula* vt2;	
+	static Torni* vt1;	
+	static Torni* vt2;	
 	//Valkoiset Lähetit
-	static Nappula* vl1;
-	static Nappula* vl2;	
+	static Lahetti* vl1;
+	static Lahetti* vl2;	
 	//Valkoiset Ratsut
-	static Nappula* vr1;
-	static Nappula* vr2;
+	static Ratsu* vr1;
+	static Ratsu* vr2;
 	//Valkoiset Sotilaat
-	static Nappula* vs1;
-	static Nappula* vs2;
-	static Nappula* vs3;
-	static Nappula* vs4;
-	static Nappula* vs5;
-	static Nappula* vs6;
-	static Nappula* vs7;
-	static Nappula* vs8;
+	static Sotilas* vs1;
+	static Sotilas* vs2;
+	static Sotilas* vs3;
+	static Sotilas* vs4;
+	static Sotilas* vs5;
+	static Sotilas* vs6;
+	static Sotilas* vs7;
+	static Sotilas* vs8;
 	//Musta Kuningas
-	static Nappula* mk1;
+	static Kuningas* mk1;
 	//Musta Daami
-	static Nappula* md;
+	static Daami* md;
 	//Mustat Tornit
-	static Nappula* mt1;
-	static Nappula* mt2;
+	static Torni* mt1;
+	static Torni* mt2;
 	//Mustat Lähetit
-	static Nappula* ml1;
-	static Nappula* ml2;
+	static Lahetti* ml1;
+	static Lahetti* ml2;
 	//Mustat Ratsut
-	static Nappula* mr1;
-	static Nappula* mr2;
+	static Ratsu* mr1;
+	static Ratsu* mr2;
 	//Mustat Sotilaat
-	static Nappula* ms1;
-	static Nappula* ms2;
-	static Nappula* ms3;
-	static Nappula* ms4;
-	static Nappula* ms5;
-	static Nappula* ms6;
-	static Nappula* ms7;
-	static Nappula* ms8;
+	static Sotilas* ms1;
+	static Sotilas* ms2;
+	static Sotilas* ms3;
+	static Sotilas* ms4;
+	static Sotilas* ms5;
+	static Sotilas* ms6;
+	static Sotilas* ms7;
+	static Sotilas* ms8;
 
 	void paivitaAsema(Siirto* siirto);
 	int getSiirtovuoro();

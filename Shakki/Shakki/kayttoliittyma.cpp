@@ -18,10 +18,7 @@ void Kayttoliittyma::piirraLauta() {
 	bool every_other = true;
 	_setmode(_fileno(stdout), _O_U16TEXT);
 
-	enum sarakkeet {
-		a, b, c, d, e, f, g, h
-	};
-	int sarakeNum = 0;
+	
 	for (int x = 0; x < 8; x++) {
 		
 		
@@ -58,14 +55,15 @@ void Kayttoliittyma::piirraLauta() {
 			}
 			if (y == 7) {
 
-				std::wcout << " " << sarakkeet(sarakeNum) << " ";
+			
 				std::wcout << "\n";
-				sarakeNum++;
+			
 			}
 			
 			
 		}
 	}
+	std::wcout << L"    a  b  c  d  e  f  g  h \n";
 }
 
 Siirto Kayttoliittyma::annaVastustajanSiirto() {
