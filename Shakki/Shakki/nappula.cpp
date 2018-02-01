@@ -9,7 +9,6 @@ Nappula::Nappula(std::wstring uniKoodi, int koodi, int vari) {
 	setVari(vari);
 }
 
-
 void Nappula::setKoodi(int koodi) {
 	_koodi = koodi;
 	

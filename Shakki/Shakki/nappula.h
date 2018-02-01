@@ -2,9 +2,8 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string>
-#include "nappula.h"
-
 #include "siirto.h"
+
 #include <list>
 // Vakioarvot nappulatyypeille.
 enum
@@ -13,6 +12,7 @@ enum
 	MT, MR, ML, MD, MK, MS
 };
 
+class Asema;
 class Nappula {
 
 private:

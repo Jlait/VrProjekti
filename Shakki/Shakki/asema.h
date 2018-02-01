@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "siirto.h"
 #include "nappula.h"
 #include "kuningas.h"
 #include "daami.h"
@@ -7,9 +8,11 @@
 #include "ratsu.h"
 #include "lahetti.h"
 #include "sotilas.h"
-#include "siirto.h"
 #include <string>
-class Asema : public Nappula {
+
+
+
+class Asema{
 
 public:
 	//Konstruktori luo alkuaseman laudalle
@@ -17,49 +20,51 @@ public:
 	Nappula* lauta[8][8];
 
 	//Valkoinen Kuningas
-	static Kuningas* vk1;	
+	static Nappula* vk1;	
 	//Valkoinen Daami
-	static Daami* vd1;	
+	static Nappula* vd1;	
 	//Valkoiset Tornit
-	static Torni* vt1;	
-	static Torni* vt2;	
+	static Nappula* vt1;	
+	//static Torni* vt2;	
 	//Valkoiset Lähetit
-	static Lahetti* vl1;
-	static Lahetti* vl2;	
+	static Nappula* vl1;
+	//static Lahetti* vl2;	
 	//Valkoiset Ratsut
-	static Ratsu* vr1;
-	static Ratsu* vr2;
+	static Nappula* vr1;
+	//static Ratsu* vr2;
 	//Valkoiset Sotilaat
-	static Sotilas* vs1;
-	static Sotilas* vs2;
+	static Nappula* vs1;
+	/*static Sotilas* vs2;
 	static Sotilas* vs3;
 	static Sotilas* vs4;
 	static Sotilas* vs5;
 	static Sotilas* vs6;
 	static Sotilas* vs7;
 	static Sotilas* vs8;
+	*/
 	//Musta Kuningas
-	static Kuningas* mk1;
+	static Nappula* mk1;
 	//Musta Daami
-	static Daami* md;
+	static Nappula* md;
 	//Mustat Tornit
-	static Torni* mt1;
-	static Torni* mt2;
+	static Nappula* mt1;
+	//static Nappula* mt2;
 	//Mustat Lähetit
-	static Lahetti* ml1;
-	static Lahetti* ml2;
+	static Nappula* ml1;
+	//static Lahetti* ml2;
 	//Mustat Ratsut
-	static Ratsu* mr1;
-	static Ratsu* mr2;
+	static Nappula* mr1;
+	//static Ratsu* mr2;
 	//Mustat Sotilaat
-	static Sotilas* ms1;
-	static Sotilas* ms2;
+	static Nappula* ms1;
+	/*static Sotilas* ms2;
 	static Sotilas* ms3;
 	static Sotilas* ms4;
 	static Sotilas* ms5;
 	static Sotilas* ms6;
 	static Sotilas* ms7;
 	static Sotilas* ms8;
+	*/
 
 	void paivitaAsema(Siirto* siirto);
 	int getSiirtovuoro();

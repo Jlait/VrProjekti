@@ -18,12 +18,7 @@ void Kayttoliittyma::piirraLauta() {
 	bool every_other = true;
 	_setmode(_fileno(stdout), _O_U16TEXT);
 
-	
-	for (int x = 0; x < 8; x++) {
-		
-		
-		
-
+	for (int x = 0; x < 8; x++) {	
 		if (every_other == true) {
 			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), BACKGROUND_INTENSITY | BACKGROUND_RED);
 			every_other = false;
@@ -34,8 +29,6 @@ void Kayttoliittyma::piirraLauta() {
 		}
 		std::wcout << " " << x + 1 << " ";
 		for (int y = 0; y < 8; y++) {		
-
-			
 
 			if (every_other == true) {
 				SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), BACKGROUND_INTENSITY | BACKGROUND_RED);
@@ -64,6 +57,7 @@ void Kayttoliittyma::piirraLauta() {
 		}
 	}
 	std::wcout << L"    a  b  c  d  e  f  g  h \n";
+	
 }
 
 Siirto Kayttoliittyma::annaVastustajanSiirto() {

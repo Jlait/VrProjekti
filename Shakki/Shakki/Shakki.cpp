@@ -17,6 +17,7 @@ int main()
 	while (true) {
 		Siirto vastustajanSiirto = kayttoliittyma->annaVastustajanSiirto();
 		asema->paivitaAsema(&vastustajanSiirto);
+		system("cls");
 		kayttoliittyma->piirraLauta();
 	}
 	
